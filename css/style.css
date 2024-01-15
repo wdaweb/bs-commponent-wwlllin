@@ -1,0 +1,30 @@
+/* 當 bootstrap 的樣式不符使用時，不要更動原本的 bootstrap.css 檔，
+先複製將樣式提取出來 再自己改或寫一個自己的樣式 style.css 引入html */
+
+/* bootstrap */
+.rounded-3 {
+  border-radius: 0.3rem !important;
+}
+
+/* 自己設的 */
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+
+/* bootstrap */
+@media (min-width: 992px) {
+.mt-lg-5 {
+  margin-top: 3rem !important;
+}
+}
+
+/* 自己設的 */
+/* !!改的時候注意要放在斷點內 */
+@media (min-width: 992px) {
+  .mt-lg-6 {
+    margin-top: 10rem !important;
+  }
+  }
+
+
